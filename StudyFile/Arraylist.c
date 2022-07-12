@@ -33,7 +33,7 @@ void ListInit(List * plist)
 
  int LNext(List *plist,LData *pdata )
  {
-    if(puts->curPosition >=(puts->numOfData)-1)
+    if(plist->curPosition >=(plist->numOfData)-1)
     {
         return FALSE;
     }
