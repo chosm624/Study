@@ -20,7 +20,7 @@ void ListInit(List*plist);
 void LInsert(List*plist,LData data);
 
 int LFirst(List*plist, LData*pdata);
-int LNext(List*plist,Ldata*pdata);
+int LNext(List*plist,LData*pdata);
 
 LData LRemove(List*Plist);
 int Lcount(List*pliet);
