@@ -27,5 +27,7 @@ int main(void)
     else
     printf("타겟 저장 인덱스: %d \n", idx);
 
+    printf("HelloWorld \n");
+
     return 0;
 }
