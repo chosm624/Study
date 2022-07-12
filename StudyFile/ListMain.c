@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "StudyHeaderFile/ArrayList.h"
+#include "../StudyHeaderFile/ArrayList.h"
 
 int main(void)
 {
