@@ -17,15 +17,15 @@ int main(void)
     int idx;
     idx = LSearch(arr, sizeof(arr)/sizeof(int),4);
     if(idx == -1)
-    printf("탐색 실패 ₩n");
+    printf("탐색 실패 \n");
     else
-    printf("타겟 저장 인덱스: %d ₩n", idx);
+    printf("타겟 저장 인덱스: %d \n", idx);
 
     idx =LSearch(arr, sizeof(arr)/sizeof(int), 7);
     if(idx == -1)
-    printf("탐색 실패 ₩n");
+    printf("탐색 실패 \n");
     else
-    printf("타겟 저장 인덱스: %d ₩n", idx);
+    printf("타겟 저장 인덱스: %d \n", idx);
 
     return 0;
 }

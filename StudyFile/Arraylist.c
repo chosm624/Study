@@ -1,5 +1,5 @@
 #include <stdio.h> 
-#include "../StudyHeaderFile/Arrayist.h"
+#include "../StudyHeaderFile/Arraylist.h"
 
 void ListInit(List * plist)
 {
