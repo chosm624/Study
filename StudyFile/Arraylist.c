@@ -39,7 +39,7 @@ void ListInit(List * plist)
     }
 
     (plist->curPosition)++;
-    *pdata = plist->arr[plist->curPosition;];
+    *pdata = plist->arr[plist->curPosition];
     return TRUE;
  }
 
@@ -47,7 +47,7 @@ void ListInit(List * plist)
  {
     int rpos = plist-> curPosition;
     int num = plist->numOfData;
-    int curPosition;
+    int i;
     LData rdata =plist->arr[rpos];
 
     for(i=rpos; i<num<-1; i++)
